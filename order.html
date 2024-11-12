@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Store - India</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            border: 3px solid #1abc9c;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            width: calc(25% - 20px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #0d0505;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            background-color: #333; 
+            color: #f2fefb; 
+            border: 1px solid #555;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .contact-info h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .contact-info p {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .contact-options {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #444;
+            border: 1px solid #666;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 350px;
+            margin: 10px;
+        }
+
+        .contact-item img {
+            width: 60px;
+        }
+
+        .contact-item span {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OUR PRODUCTS</h1>
+    </header>
+
+    
+    <section class="products">
+        <div class="product">
+            <img src="fiddle leaf.webp" alt="Fiddle Leaf Fig">
+            <h3>Fiddle Leaf Fig</h3>
+            <p>Price: ₹499</p>
+        </div>
+        <div class="product">
+            <img src="monestra.jpg" alt="Monstera Deliciosa">
+            <h3>Monstera Deliciosa</h3>
+            <p>Price: ₹699</p>
+        </div>
+        <div class="product">
+            <img src="snake plant.jpg" alt="Snake Plant">
+            <h3>Snake Plant</h3>
+            <p>Price: ₹399</p>
+        </div>
+        <div class="product">
+            <img src="spider plant.jpg" alt="Spider Plant">
+            <h3>Spider Plant</h3>
+            <p>Price: ₹599</p>
+        </div>
+        <div class="product">
+            <img src="peace lily.jpg" alt="Peace Lily">
+            <h3>Peace Lily</h3>
+            <p>Price: ₹399</p>
+        </div>
+        <div class="product">
+            <img src="aloe vera.jpg" alt="Aloe Vera">
+            <h3>Aloe Vera</h3>
+            <p>Price: ₹299</p>
+        </div>
+        <div class="product">
+            <img src="rubber plant.jpg" alt="Rubber Plant">
+            <h3>Rubber Plant</h3>
+            <p>Price: ₹499</p>
+        </div>
+        <div class="product">
+            <img src="money plant.jpg" alt="Money Plant">
+            <h3>Money Plant</h3>
+            <p>Price: ₹299</p>
+        </div>
+        <div class="product">
+            <img src="bamboo.jpg" alt="Bamboo Palm">
+            <h3>Bamboo Palm</h3>
+            <p>Price: ₹399</p>
+        </div>
+        <div class="product">
+            <img src="fern.jpg" alt="Fern">
+            <h3>Fern</h3>
+            <p>Price: ₹499</p>
+        </div>
+        <div class="product">
+            <img src="download.webp" alt="Lavender">
+            <h3>Lavender</h3>
+            <p>Price: ₹299</p>
+        </div>
+        <div class="product">
+            <img src="cactus.jpg" alt="Cactus">
+            <h3>Cactus</h3>
+            <p>Price: ₹199</p>
+        </div>
+    </section>
+
+    
+    <section class="products">
+        <div class="product">
+            <img src="jute basket.jpg" alt="Jute Basket">
+            <h3>Handmade Jute Basket</h3>
+            <p>Price: ₹349</p>
+        </div>
+        <div class="product">
+            <img src="bag.jpg" alt="Recycled Paper Bag">
+            <h3>Recycled Paper Bag</h3>
+            <p>Price: ₹49</p>
+        </div>
+        <div class="product">
+            <img src="coconut shell.jpg" alt="Coconut Shell Bowl">
+            <h3>Coconut Shell Bowl</h3>
+            <p>Price: ₹199</p>
+        </div>
+        <div class="product">
+            <img src="bamboo straws.jpg" alt="Bamboo Straws">
+            <h3>Bamboo Straws (Pack of 4)</h3>
+            <p>Price: ₹149</p>
+        </div>
+        <div class="product">
+            <img src="glass bottles.jpg" alt="Recycled Glass Bottle">
+            <h3>Recycled Glass Bottle</h3>
+            <p>Price: ₹249</p>
+        </div>
+        <div class="product">
+            <img src="cloth bag.jpg" alt="Handmade Cloth Bag">
+            <h3>Handmade Cloth Bag</h3>
+            <p>Price: ₹199</p>
+        </div>
+    </section>
+
+    
+    <section class="contact-info">
+        <h2>Order Information</h2>
+        <p>To place an order for the selected plants or handmade products, please contact us: Our team will contact you as soon as posible</p>
+        <div class="contact-options">
+            <div class="contact-item">
+                <img src="whatsapp.jpg" alt="WhatsApp">
+                <span>WhatsApp: +91 6287830296</span>
+            </div>
+            <div class="contact-item">
+                <img src="instagram.jpg" alt="Instagram">
+                <span>Instagram: @CarbonTracer08</span>
+            </div>
+            <div class="contact-item">
+                <img src="gmail.jpg" alt="Gmail">
+                <span>Email: CarbonTracer08@gmail.com</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

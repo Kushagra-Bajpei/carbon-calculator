@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carbon Tracer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Carbon Tracer Logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#calculators">Calculators</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="order.html">Online Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="fade-in">
+    <h1>Calculate Your Carbon Footprint</h1>
+    <p>Take action for a greener planet.</p>
+  </section>
+
+  <section id="calculators">
+    <h2>Carbon Calculators</h2>
+
+    <div class="calculator slide-up">
+      <h3>Personal Carbon Calculator</h3>
+      <form id="personal-calculator-form">
+        <label for="personal-transportation">Transportation (km driven):</label>
+        <input type="number" id="personal-transportation" name="personal-transportation" placeholder="Enter km driven">
+        <label for="personal-energy">Energy Consumption (kWh used):</label>
+        <input type="number" id="personal-energy" name="personal-energy" placeholder="Enter kWh used">
+        <label for="personal-diet">Dietary Habits (kg of food):</label>
+        <input type="number" id="personal-diet" name="personal-diet" placeholder="Enter kg of food">
+        <button type="submit">Calculate</button>
+      </form>
+      <p id="personal-result">Your personal carbon footprint is:</p>
+    </div>
+<br>
+    <div class="calculator slide-up">
+      <h3>Traveling Carbon Calculator</h3>
+      <form id="traveling-calculator-form">
+        <label for="traveling-distance">Distance (km):</label>
+        <input type="number" id="traveling-distance" name="traveling-distance" placeholder="Enter distance">
+        <label for="traveling-mode">Mode of Transportation:</label>
+        <select id="traveling-mode" name="traveling-mode">
+          <option value="car">Car</option>
+          <option value="plane">Plane</option>
+          <option value="train">Train</option>
+          <option value="bus">Bus</option>
+        </select>
+        <label for="traveling-passengers">Number of Passengers:</label>
+        <input type="number" id="traveling-passengers" name="traveling-passengers" placeholder="Enter passengers">
+        <button type="submit">Calculate</button>
+      </form>
+      <p id="traveling-result">Your traveling carbon footprint is:</p>
+    </div>
+<br>
+    <div class="calculator slide-up">
+      <h3>Waste Carbon Calculator</h3>
+      <form id="waste-calculator-form">
+        <label for="waste-amount">Waste Amount (kg/week):</label>
+        <input type="number" id="waste-amount" name="waste-amount" placeholder="Enter kg of waste">
+        <button type="submit">Calculate</button>
+      </form>
+      <p id="waste-result">Your waste carbon footprint is:</p>
+    </div>
+<br>
+    <div class="calculator slide-up">
+      <h3>Offset Calculator</h3>
+      <form id="offset-calculator-form">
+        <label for="total-carbon-footprint">Your Total Carbon Footprint:</label>
+        <input type="number" id="total-carbon-footprint" name="total-carbon-footprint" placeholder="Enter footprint in kg">
+        <label for="offset-type">Offset Type:</label>
+        <select id="offset-type" name="offset-type">
+          <option value="tree-planting">Tree Planting</option>
+          <option value="renewable-energy">Renewable Energy</option>
+        </select>
+        <button type="submit">Calculate Offset</button>
+      </form>
+      <p id="offset-amount">Your required offset amount is:</p>
+    </div>
+  </section>
+
+  <section id="about-us" class="fade-in">
+    <h2>About Carbon Tracer</h2>
+    <p>Carbon Tracer specializes in calculating carbon footprints. We provide tools and services to help individuals and businesses understand and reduce their environmental impact, empowering clients to make informed decisions and take effective action against climate change. We also sell different plants and natural products prepared by our company.</p>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact Us</h2>
+    <ul>
+      <li>Email: kushagrabajpeimbic@gmail.com</li>
+      <li>Phone: +91 9555904529</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Carbon Tracer. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
